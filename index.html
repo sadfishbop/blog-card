@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,29 +12,37 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Tailwind CDN allows you to use Tailwind classes immediately in your HTML without any installation steps. 
-      If you're not using Tailwind, you may delete the <script> -->
-    <!-- Get started on Tailwind: https://tailwindcss.com/docs/installation/play-cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <link rel="icon" href="img/favicon.ico" sizes="any" />
-    <style>
-      /* You may write styles inside this <style> tag or within `css/style.css`. */
-    </style>
   </head>
   <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
+    <article>
+      <figure class="living-room-container">
+        <img class="living-room-img" alt="Living room filled with modern furniture" src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg"/>
+      </figure>
 
-    <!-- Interior
-      Top 5 Living Room Inspirations
-      Curated vibrants colors for your living, make it pop & calm in the same time.
-      Read more -->
+      <div class="card-content">
+        <span class="interior-container" aria-label="Category: Interior">
+          Interior
+        </span>
 
-    <!-- Attribute this challenge to yourself! -->
-    <div class="credits" data-gfe-screenshot-exclude="true">
+        <h1>
+          Top 5 Living Room Inspirations
+        </h1>
+
+        <p>
+          Curated vibrants colors for your living, make it pop & calm in the same time.
+        </p>
+
+        <a class="read-more-link" href="https://www.greatfrontend.com/">
+          <span class="read-more-description">Read more</span>
+          <span class="right-arrow-container">
+            <img class="right-arrow" alt="Right arrow" src="./img/arrow-right-line.png" />
+          </span>
+        </a>        
+      </div>
+    </article>
+
+    <footer class="credits" data-gfe-screenshot-exclude="true">
       A challenge by
       <a
         href="https://www.greatfrontend.com/projects?ref=challenges"
@@ -45,9 +52,9 @@
       <a
         href="https://www.greatfrontend.com/projects/u/username"
         target="_blank"
-        >Your Name</a
+        >Sad Fish</a
       >.
-    </div>
+    </footer>
     <script src="js/index.js"></script>
   </body>
 </html>
