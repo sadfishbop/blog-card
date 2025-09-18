@@ -109,6 +109,7 @@ p {
   vertical-align: middle;
 }
 
-a, .read-more-link {
+a,
+.read-more-link {
   text-decoration: none;
 }
